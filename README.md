@@ -29,6 +29,6 @@ Optimized for loud environments (e.g., rehearsal studios, live rooms) using loga
 
 ## Installation
 ```bash
-git clone https://github.com/yourusername/mic-beat-flash.git
-cd mic-beat-flash
+git clone https://github.com/yourusername/flasher.git
+cd flasher
 pip install -r requirements.txt
