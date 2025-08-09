@@ -155,7 +155,7 @@ def main():
                 pygame.draw.rect(screen, (20, 20, 20), (bar_x, bar_y2, bar_w, bar_h))
                 sens_ratio = (sens_mult - SENS_MIN) / (SENS_MAX - SENS_MIN)
                 pygame.draw.rect(screen, (255, 255, 255), (bar_x, bar_y2, int(bar_w * sens_ratio), bar_h))
-                sens_text = font.render(f"Threshold: {sens_mult:.2f}×", True, (255, 255, 255))
+                sens_text = font.render(f"Sens: {sens_mult:.2f}×", True, (255, 255, 255))
                 screen.blit(sens_text, (bar_x, bar_y2 - 22))
 
             pygame.display.flip()
